@@ -674,8 +674,6 @@ main (int argc, char *argv[])
   if ((rv = dovecot_validate_all()) != OCF_SUCCESS)
     goto error_generic;
 
-  ocf_log (LOG_DEBUG, "dovecot: %s", argv[1]);
-
   if (strncmp (argv[1], "status", 6) == 0)
     rv = dovecot_status ();
   else if (strncmp (argv[1], "start", 5) == 0)

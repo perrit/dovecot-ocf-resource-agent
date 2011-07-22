@@ -106,7 +106,7 @@ ocf_log_init (const char *logtag)
       (! p2 && (ha_logtag = strdup (logtag)) == NULL))
     /* errno set by strdup */
     return -1;
-//fprintf (stderr, "logtag %s, %s, %s\n", logtag, ha_logtag, p2);
+
   ha_logfacility = 0;
   ha_logfile = NULL;
   ha_debug = ocf_is_decimal (getenv ("HA_debug"));

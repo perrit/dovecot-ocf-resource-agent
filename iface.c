@@ -290,12 +290,12 @@ iface_list_exclude (iface_list_t *list, iface_list_t *exclude)
     for (il=list; il; il=il->next) {
       i = il->iface;
       skip = false;
-  fprintf (stderr, "%s (%d)\n", __func__, __LINE__);
+
       for (ip=ia; *ip && ! skip; ip++) {
         if (*ip == i)
           skip = true;
       }
-  fprintf (stderr, "%s (%d)\n", __func__, __LINE__);
+
       if (skip)
         continue;
       if (e->service && i->service && strcmp (i->service, e->service) != 0)
@@ -354,7 +354,7 @@ iface_list_exclude (iface_list_t *list, iface_list_t *exclude)
      *(ia+iac) = NULL;
     }
   }
-  fprintf (stderr, "%s (%d)\n", __func__, __LINE__);
+
   /* create new list of interfaces */
   for (il=list; il; il=il->next) {
     // 1. check if in array of interfaces to exclude

@@ -158,7 +158,7 @@ imap_recv (iostream_t *stream, imap_info_t *info, imap_resp_t *resp)
   /* find out what type of response we got */
   for (p1=resp->buf; isspace (*p1); p1++)
     ; /* ignore leading whitespace */
-//fprintf (stderr, "S: %s\n", resp->buf);
+
   p2 = p1;
 
   if (*p1 == '*') {
@@ -303,7 +303,7 @@ imap_send (iostream_t *stream, imap_info_t *info, const char *fmt, ...)
   }
 
   strcpy (++ptr, "\r\n");
-//fprintf (stderr, "C: %s", info->buf);
+
   /* write command to iostream */
   if (iostream_puts (stream, info->buf, &errstr) < 0) {
     ocf_log (LOG_ERR, "%s: iostream_puts: %s", __func__, errstr);
