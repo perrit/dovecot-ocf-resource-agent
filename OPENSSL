@@ -1,0 +1,21 @@
+This document will describe how timeout functionality can be implemented in
+OpenSSL. Stay tuned.
+
+Sources:
+1.  http://marc.info/?l=openssl-users&m=112783176702415
+2.  http://unix.derkeiler.com/pdf/Newsgroups/comp.os.vms/2009-01/msg00507.pdf
+3.  http://www.mail-archive.com/openssl-users@openssl.org/msg31040.html
+4.  http://groups.google.com/group/mailing.openssl.users/browse_thread/thread/51ea2a0e17235b4a
+5.  http://readlist.com/lists/openssl.org/openssl-users/0/4456.html
+6.  http://groups.google.com/group/mailing.openssl.users/browse_thread/thread/bd5a4ee0c7608c9c/86a3f0ce9e18d8fb?lnk=gst&q=timeout#86a3f0ce9e18d8fb
+7.  http://groups.google.com/group/mailing.openssl.users/browse_thread/thread/1cdd6ca299980fec/73a1a7e49c847cfd?lnk=gst&q=timeout#73a1a7e49c847cfd
+8.  http://groups.google.com/group/mailing.openssl.users/browse_thread/thread/bd5a4ee0c7608c9c/86a3f0ce9e18d8fb?lnk=gst&q=timeout#86a3f0ce9e18d8fb
+9.  http://groups.google.com/group/mailing.openssl.users/browse_thread/thread/9d7af9d58687b5ca/cb93140ca2fcf1ba?lnk=gst&q=timeout#cb93140ca2fcf1ba
+10. http://groups.google.com/group/mailing.openssl.users/browse_thread/thread/5335fd0d71311794/1f0a248685fbab28?lnk=gst&q=timeout#1f0a248685fbab28
+11. http://groups.google.com/group/mailing.openssl.users/browse_thread/thread/c319356a7199cc19/eec64d46a39c0482?lnk=gst&q=timeout#eec64d46a39c0482
+12. http://groups.google.com/group/mailing.openssl.users/browse_thread/thread/8209c2401c8eb856/9d2cf76739b07f68?lnk=gst&q=timeout#9d2cf76739b07f68
+13. http://groups.google.com/group/mailing.openssl.users/browse_thread/thread/7a365b8949d36399/a6dc954cba571770?lnk=gst&q=timeout#a6dc954cba571770
+14. http://groups.google.com/group/mailing.openssl.users/browse_thread/thread/c63495944faf1f56/5e89b0c3e0aa391e?lnk=gst&q=timeout#5e89b0c3e0aa391e
+15. http://groups.google.com/group/mailing.openssl.users/browse_thread/thread/f207f2ed8c73eb5a/512a45eb23bef698?lnk=gst&q=timeout#512a45eb23bef698
+16. http://groups.google.com/group/mailing.openssl.users/browse_thread/thread/d9e5521d977d6196/8651fe39d05d1751?lnk=gst&q=timeout#8651fe39d05d1751
+

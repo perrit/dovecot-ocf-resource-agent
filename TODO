@@ -1,0 +1,33 @@
+List of items todo before dovecot-ocf is done.
+x 1.  Document code.
+v 2.  Add timeout handling to IMAP client.
+v 3.  Improve error handling in IMAP client.
+v 4.  Add timeout handling to POP3 client.
+v 5.  Improve error handling in POP3 client.
+v 6.  Implement ocf_log so it works the same as the shell variant.
+v 7.  Improve start operation.
+v 8.  Remove debug code.
+x 9.  Create Makefile etc for easy compilation and redistribution.
+v 10. Refactor main program.
+v 11. Include new options in meta-data output.
+  12. Test code properly.
+x 13. Instruct IMAP and POP3 clients to settings struct.
+x 14. Remove OCF code from IMAP and POP3 clients so that they can be used by
+      others.
+v 15. Implement ocf_log function and be compatible with bash version.
+v 16. Improve ocf_log function.
+v 17. Implement option to not use STARTTLS in IMAP if available.
+v 18. Implement option to not use STARTTLS in POP3 if available.
+v 19. Use listen from doveconf instead of localhost.
+x 20. Replace client specific errors with more general errors.
+v 21. Rename iostream_secure to iostream_encrypt.
+v 22. Replace every bzero with memset, bzero is deprecated.
+v 23. Implement iostream_deinit so that it disconnects, frees, etc.
+v 24. Implement starttls disable option in main program.
+v 25. Replace OCF_LOG_* variants with syslog LOG_* variants.
+v 26. Implement dovecot_deinit.
+v 27. Refactor start operation.
+  28. Test what happens if certificate expired.
+v 29. Implement iostream_disconnect.
+v 30. Implement ocf_log_deinit.
+v 31. Refactor some of the meta-data.
